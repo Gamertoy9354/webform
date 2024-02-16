@@ -1,0 +1,10 @@
+make a website with sql integrated in it and should save the information add by hte user in the database
+that should be asseccesible by the founder or the owner
+this to be added in the form:
+Name:
+Address:
+E-Mail:
+Password:
+Phone No.:
+About them:
+and after that or before that there should be payment method or coupon method!
