@@ -1,9 +1,15 @@
 @font-face {
     font-family: 'pacifo-regular';
-    src: url('Pacifico-Regular.ttf'); /* Replace with the actual path to your font file */
-    /* You can include additional font formats for cross-browser compatibility */
+    src: url('Pacifico-Regular.ttf');
   }
-
+@font-face {
+    font-family: "protestrevolution";
+    src: url("ProtestRevolution-Regular.ttf")
+}
+@font-face {
+    font-family: "proteststrike";
+    src: url("ProtestStrike-Regular.ttf");
+}
 body {
     background-image: url('yo.png');
     background-repeat: no-repeat;
@@ -24,6 +30,33 @@ body {
     background-color: rgba(255, 255, 255, 0.171);
     width: 100%;
     height: 70%;
-    margin-top: 7px;
+    margin-top: 20px;
     border-radius: 15px;
+    font-size: 30px;
+    font-family: "protestrevolution";
+    color: rgb(247, 247, 247);
+    letter-spacing: 1px;
+}
+.header{
+    background-color: rgba(255, 255, 255, 0.493);
+    color: rgb(19, 19, 19);
+    font-family: "pacifo-regular";
+    font-size: 25px;
+    border-radius: 15px;
+}
+.foodDonation{
+    font-size: 20px;
+    margin-right: 50px;
+    font-family: "proteststrike";
+}
+.button{
+    margin-right: 15px;
+    margin-left: 87%;
+    width: 150px;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    font-family: "proteststrike";
 }
